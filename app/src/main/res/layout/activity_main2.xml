@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageButton
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/arrow"
+        android:id="@+id/back"
+        android:layout_gravity="top"
+        android:adjustViewBounds="true"
+        android:background="@color/blue"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:text="Choose a car"
+        android:paddingLeft="92dp"
+        android:paddingRight="92dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:paddingTop="3dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
+
+    <ScrollView
+        android:layout_width="450dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/car1"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/car1"
+                android:layout_marginTop="10dp"
+
+                />
+            <ImageButton
+                android:id="@+id/car2"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/car2"
+                android:layout_marginTop="10dp"
+                />
+            <ImageButton
+                android:id="@+id/car3"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/car3"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageButton
+                android:id="@+id/car4"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/car4" />
+
+            <ImageButton
+                android:id="@+id/car5"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/car5" />
+
+            <ImageButton
+                android:id="@+id/car6"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/car6" />
+
+            <ImageButton
+                android:id="@+id/car7"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/car7"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
